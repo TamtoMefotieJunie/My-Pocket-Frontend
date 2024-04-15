@@ -222,7 +222,7 @@ def show_history():
 def show_expense():
     subprocess.call(["python", "Expense.py"])     
 def show_actions():
-    subprocess.call(["python", "Frontend/View/Action.py"])     
+    subprocess.call(["python", "Action.py"])     
 
 def search():
     query = entry.get()
