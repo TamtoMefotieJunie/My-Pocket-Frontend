@@ -25,7 +25,7 @@ def validate_form(app, entry1, entry2,):
     password = entry2.get()
     
     if not email:
-        messagebox.showerror("Error", "email or password incorrect")
+        messagebox.showerror("Error", "email or password not correct")
     elif not password:
         messagebox.showerror("Error", "email or password incorrect")
     else:
